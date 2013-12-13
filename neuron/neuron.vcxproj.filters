@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Neuron">
+      <UniqueIdentifier>{23e01cf5-e198-49a9-a26a-9944f24b1b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neuron\Synapse">
+      <UniqueIdentifier>{56732f1f-92bb-44c2-b3da-9788120a06c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neuron\Dendrite">
+      <UniqueIdentifier>{798985e5-6c1e-4607-b294-641ce4a698b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neuron\Axon">
+      <UniqueIdentifier>{b0299346-e61c-42f7-8aac-b416074cfc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neuron\Soma">
+      <UniqueIdentifier>{e9b51618-6adf-4331-93a8-f0d3cec0444a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neuron\Synapse\Protein">
+      <UniqueIdentifier>{c8d6fa97-ee26-4b77-bb39-cf4989ab18e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tuple">
+      <UniqueIdentifier>{44c55c19-65b2-46d9-8d32-a7d48c8154eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neuron\Synapse\Transceivers">
+      <UniqueIdentifier>{782f3670-55ef-49f8-9cdd-1e2181e8ebc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neuron.c">
+      <Filter>Source Files\Neuron</Filter>
+    </ClCompile>
+    <ClCompile Include="dendrite.c">
+      <Filter>Source Files\Neuron\Dendrite</Filter>
+    </ClCompile>
+    <ClCompile Include="soma.c">
+      <Filter>Source Files\Neuron\Soma</Filter>
+    </ClCompile>
+    <ClCompile Include="synapse.c">
+      <Filter>Source Files\Neuron\Synapse</Filter>
+    </ClCompile>
+    <ClCompile Include="axon.c">
+      <Filter>Source Files\Neuron\Axon</Filter>
+    </ClCompile>
+    <ClCompile Include="protein.c">
+      <Filter>Source Files\Neuron\Synapse\Protein</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver.c">
+      <Filter>Source Files\Neuron\Synapse\Transceivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="neuron.h">
+      <Filter>Source Files\Neuron</Filter>
+    </ClInclude>
+    <ClInclude Include="axon.h">
+      <Filter>Source Files\Neuron\Axon</Filter>
+    </ClInclude>
+    <ClInclude Include="dendrite.h">
+      <Filter>Source Files\Neuron\Dendrite</Filter>
+    </ClInclude>
+    <ClInclude Include="soma.h">
+      <Filter>Source Files\Neuron\Soma</Filter>
+    </ClInclude>
+    <ClInclude Include="synapse.h">
+      <Filter>Source Files\Neuron\Synapse</Filter>
+    </ClInclude>
+    <ClInclude Include="protein.h">
+      <Filter>Source Files\Neuron\Synapse\Protein</Filter>
+    </ClInclude>
+    <ClInclude Include="tuple.h">
+      <Filter>Source Files\Tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="transceiver.h">
+      <Filter>Source Files\Neuron\Synapse\Transceivers</Filter>
+    </ClInclude>
+    <ClInclude Include="transmitter.h">
+      <Filter>Source Files\Neuron\Synapse\Transceivers</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver.h">
+      <Filter>Source Files\Neuron\Synapse\Transceivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿Build started 4/18/2013 3:16:51 PM.
+     1>Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\neuron\neuron\neuron.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\neuron.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c neuron.c receiver.c synapse.c
+         synapse.c
+         receiver.c
+         neuron.c
+         main.c
+     1>c:\users\sam\documents\visual studio 2010\projects\neuron\neuron\main.c(15): error C2198: 'neuron_add_dendrite' : too few arguments for call
+     1>c:\users\sam\documents\visual studio 2010\projects\neuron\neuron\main.c(16): error C2198: 'neuron_add_dendrite' : too few arguments for call
+     1>c:\users\sam\documents\visual studio 2010\projects\neuron\neuron\main.c(17): error C2198: 'neuron_add_axon' : too few arguments for call
+     1>c:\users\sam\documents\visual studio 2010\projects\neuron\neuron\main.c(20): error C2198: 'neuron_add_dendrite' : too few arguments for call
+     1>c:\users\sam\documents\visual studio 2010\projects\neuron\neuron\main.c(21): error C2198: 'neuron_add_dendrite' : too few arguments for call
+     1>c:\users\sam\documents\visual studio 2010\projects\neuron\neuron\main.c(22): error C2198: 'neuron_add_axon' : too few arguments for call
+         Generating Code...
+     1>Done Building Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\neuron\neuron\neuron.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22
